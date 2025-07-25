@@ -71,16 +71,18 @@ h1 {
   background: #e0f2fe;
   border-radius: 10px;
   padding: 1.5rem 1rem;
+  color: #000;
 }
 .result h2 {
-  color: #2563eb;
+  color: #000;
 }
 .roadmap {
   margin-top: 1.2rem;
   text-align: left;
+  color: #000;
 }
 .roadmap h3 {
-  color: #0f172a;
+  color: #000;
   margin-bottom: 0.3rem;
 }
 .roadmap ul {
@@ -90,7 +92,7 @@ h1 {
 }
 .roadmap li {
   margin-bottom: 0.3rem;
-  color: #334155;
+  color: #000;
 }
 .result button {
   margin-top: 1.2rem;

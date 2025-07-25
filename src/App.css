@@ -1,0 +1,108 @@
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.container {
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 2rem 1.5rem 2.5rem 1.5rem;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #2d3a4a;
+}
+
+.question-box {
+  margin-top: 2rem;
+}
+
+.question-box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+  color: #3a4a5a;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.options button {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.options button:hover {
+  background: #2563eb;
+}
+
+.restart-btn {
+  background: #e2e8f0;
+  color: #2d3a4a;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+.restart-btn:hover {
+  background: #cbd5e1;
+}
+
+.result {
+  margin-top: 2rem;
+  background: #e0f2fe;
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+}
+.result h2 {
+  color: #2563eb;
+}
+.roadmap {
+  margin-top: 1.2rem;
+  text-align: left;
+}
+.roadmap h3 {
+  color: #0f172a;
+  margin-bottom: 0.3rem;
+}
+.roadmap ul {
+  margin: 0.5rem 0 0 1.2rem;
+  padding: 0;
+  list-style: disc;
+}
+.roadmap li {
+  margin-bottom: 0.3rem;
+  color: #334155;
+}
+.result button {
+  margin-top: 1.2rem;
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.result button:hover {
+  background: #2563eb;
+}

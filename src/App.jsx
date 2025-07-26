@@ -90,6 +90,7 @@ const roadmaps = {
       'ISO/IEC 27001 altyapısı ile desteklenmeli',
       'Önerilen ek standartlar: COBIT, TOGAF, CMMI',
     ],
+    relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'DPO', 'DPIA']
   },
   2: {
     title: 'CRA Sınıf I',
@@ -100,6 +101,7 @@ const roadmaps = {
       'ISO/IEC 27001 önerilir',
       'Önerilen ek standartlar: CMMI (ML2+), ITIL',
     ],
+    relevantStandards: ['CRA', 'ISO 27001']
   },
   3: {
     title: 'CRA Sınıf II',
@@ -110,6 +112,7 @@ const roadmaps = {
       'ISO/IEC 27001 önerilir',
       'Önerilen ek standartlar: CMMI ML3+, COBIT',
     ],
+    relevantStandards: ['CRA', 'ISO 27001', 'COBIT']
   },
   4: {
     title: 'Yalnızca GDPR',
@@ -120,6 +123,7 @@ const roadmaps = {
       'ISO/IEC 27701 veya 27001 önerilir',
       'Önerilen ek çerçeve: TOGAF (veri akışı modellemesi)',
     ],
+    relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF']
   },
   5: {
     title: 'CRA Distribütör / Tedarikçi',
@@ -130,6 +134,7 @@ const roadmaps = {
       'ISO/IEC 27001 önerilir',
       'Ek çerçeve: ITIL (değişiklik & olay yönetimi)',
     ],
+    relevantStandards: ['CRA', 'ISO 27001']
   },
   6: {
     title: 'GDPR + NIS2',
@@ -139,6 +144,7 @@ const roadmaps = {
       'ISO/IEC 27001 altyapısı kurulmalı',
       'Önerilen çerçeveler: COBIT, TOGAF',
     ],
+    relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'DPO', 'DPIA']
   },
   7: {
     title: 'Sadece Türkiye / KVKK',
@@ -148,7 +154,133 @@ const roadmaps = {
       'Farkındalık eğitimleri',
       'Önerilen ek: ITIL (temel süreç olgunlaştırma)',
     ],
+    relevantStandards: ['KVKK', 'ISO 27001']
   },
+};
+
+// Akış şemaları verileri
+const flowcharts = {
+  'ISO 27001': {
+    title: 'ISO 27001 Bilgi Güvenliği Yönetim Sistemi Akış Şeması',
+    steps: [
+      '1. Organizasyonel Bağlam ve İlgili Tarafların Belirlenmesi',
+      '2. Bilgi Güvenliği Politikasının Oluşturulması',
+      '3. Risk Değerlendirme ve Risk İşleme Planının Hazırlanması',
+      '4. Bilgi Güvenliği Hedeflerinin Belirlenmesi',
+      '5. Uygunluk Gereksinimlerinin Belirlenmesi',
+      '6. Bilgi Güvenliği Kontrollerinin Seçimi ve Uygulanması',
+      '7. Bilgi Güvenliği Dokümantasyonunun Hazırlanması',
+      '8. İç Denetimlerin Yapılması',
+      '9. Yönetim Gözden Geçirmesi',
+      '10. Düzeltici Faaliyetlerin Uygulanması',
+      '11. Sertifikasyon Denetimi ve Belgelendirme'
+    ]
+  },
+  'CRA': {
+    title: 'CRA (Cyber Resilience Act) Uyum Akış Şeması',
+    steps: [
+      '1. Ürün Kategorisinin Belirlenmesi (Sınıf I/II)',
+      '2. Teknik Dosya Hazırlanması',
+      '3. Güvenli Yazılım Geliştirme Süreçlerinin Kurulması',
+      '4. Siber Güvenlik Risk Değerlendirmesi',
+      '5. Güvenlik Açığı Bildirim Mekanizmalarının Kurulması',
+      '6. Uygunluk Değerlendirmesi ve Sertifikasyon',
+      '7. ENISA\'ya Bildirim Yapılması',
+      '8. CE İşaretlemesi ve Piyasaya Arz',
+      '9. Piyasa Gözetimi ve Denetimi',
+      '10. Sürekli İyileştirme ve Güncelleme'
+    ]
+  },
+  'NIS2': {
+    title: 'NIS 2 Direktifi Uyum Akış Şeması',
+    steps: [
+      '1. Kritik Sektör Kategorisinin Belirlenmesi',
+      '2. Ulusal Yetkili Makamların Belirlenmesi',
+      '3. Yönetim Kurulu Düzeyinde Siber Sorumluluğun Tanımlanması',
+      '4. Siber Güvenlik Risk Yönetimi Politikasının Oluşturulması',
+      '5. İş Sürekliliği ve Kriz Yönetimi Planlarının Hazırlanması',
+      '6. Siber Güvenlik Olay Müdahale Kapasitesinin Kurulması',
+      '7. Tedarikçi Risk Yönetimi Süreçlerinin Oluşturulması',
+      '8. Siber Güvenlik Raporlama Mekanizmalarının Kurulması',
+      '9. Yıllık Siber Güvenlik Denetimlerinin Yapılması',
+      '10. Ulusal Yetkili Makamlara Bildirim Yapılması'
+    ]
+  },
+  'KVKK': {
+    title: 'KVKK (Kişisel Verilerin Korunması Kanunu) Uyum Akış Şeması',
+    steps: [
+      '1. Kişisel Veri İşleme Envanterinin Hazırlanması',
+      '2. Veri İşleme Amaçlarının ve Hukuki Dayanaklarının Belirlenmesi',
+      '3. Açık Rıza Mekanizmalarının Kurulması',
+      '4. Aydınlatma Yükümlülüklerinin Yerine Getirilmesi',
+      '5. Veri Güvenliği Önlemlerinin Alınması',
+      '6. Veri İşleyen ve Veri Sorumlusu Sözleşmelerinin Hazırlanması',
+      '7. Kişisel Verilerin Silinmesi, Anonimleştirilmesi ve Saklanması',
+      '8. Kişisel Veri İşleme Şartlarının Belirlenmesi',
+      '9. Veri Koruma Kurulu\'na Bildirim Yapılması',
+      '10. İç Denetim ve Uyum Kontrolü'
+    ]
+  },
+  'DPO': {
+    title: 'DPO (Data Protection Officer) Atama Akış Şeması',
+    steps: [
+      '1. DPO Atama Zorunluluğunun Değerlendirilmesi',
+      '2. DPO Pozisyonunun Organizasyon Yapısında Tanımlanması',
+      '3. DPO Adaylarının Belirlenmesi ve Değerlendirilmesi',
+      '4. DPO\'nun Bağımsızlığının Sağlanması',
+      '5. DPO\'nun Yetki ve Sorumluluklarının Tanımlanması',
+      '6. DPO\'nun Gerekli Kaynaklara Erişiminin Sağlanması',
+      '7. DPO\'nun Eğitim ve Gelişiminin Planlanması',
+      '8. DPO\'nun İletişim Kanallarının Kurulması',
+      '9. DPO\'nun Performans Değerlendirme Kriterlerinin Belirlenmesi',
+      '10. DPO\'nun Sürekli İyileştirme ve Güncelleme Süreçlerinin Kurulması'
+    ]
+  },
+  'DPIA': {
+    title: 'DPIA (Data Protection Impact Assessment) Süreci Akış Şeması',
+    steps: [
+      '1. DPIA Gerekliliğinin Değerlendirilmesi',
+      '2. DPIA Ekibinin Oluşturulması',
+      '3. Veri İşleme Faaliyetinin Detaylı Açıklaması',
+      '4. Veri İşleme Amaçlarının ve Hukuki Dayanaklarının Belirlenmesi',
+      '5. Veri İşleme Faaliyetinin Orantılılığının Değerlendirilmesi',
+      '6. Veri Sahiplerinin Haklarının Korunması',
+      '7. Risk Değerlendirmesi ve Risk Azaltma Önlemlerinin Belirlenmesi',
+      '8. İlgili Taraflarla İstişare Edilmesi',
+      '9. DPIA Raporunun Hazırlanması ve Onaylanması',
+      '10. DPIA Sonuçlarının Uygulanması ve İzlenmesi'
+    ]
+  },
+  'TOGAF': {
+    title: 'TOGAF Kurumsal Mimari Uyum Akış Şeması',
+    steps: [
+      '1. Ön Hazırlık Fazı (Preliminary Phase)',
+      '2. Mimari Vizyon Fazı (Architecture Vision)',
+      '3. İş Mimarisinin Geliştirilmesi (Business Architecture)',
+      '4. Veri Mimarisinin Geliştirilmesi (Data Architecture)',
+      '5. Uygulama Mimarisinin Geliştirilmesi (Application Architecture)',
+      '6. Teknoloji Mimarisinin Geliştirilmesi (Technology Architecture)',
+      '7. Geçiş Planlaması (Opportunities and Solutions)',
+      '8. Uygulama Planlaması (Migration Planning)',
+      '9. Uygulama Yönetimi (Implementation Governance)',
+      '10. Mimari Değişiklik Yönetimi (Architecture Change Management)'
+    ]
+  },
+  'COBIT': {
+    title: 'COBIT 2019 Uyum Akış Şeması',
+    steps: [
+      '1. Farkındalık ve Eğitim (Awareness and Education)',
+      '2. Mevcut Durum Analizi (Current State Assessment)',
+      '3. Tanısal Değerlendirme (Diagnostic Assessment)',
+      '4. Hedef Kabiliyet Belirleme (Target Capability Definition)',
+      '5. Uygulama Planı Geliştirme (Implementation Planning)',
+      '6. Uygulama ve İzleme (Implementation and Monitoring)',
+      '7. Değerlendirme ve Ayarlama (Evaluation and Adjustment)',
+      '8. Sürekli İyileştirme (Continuous Improvement)',
+      '9. Performans Ölçümü (Performance Measurement)',
+      '10. Olgunluk Seviyesi Değerlendirmesi (Maturity Level Assessment)'
+    ]
+  }
 };
 
 function App() {
@@ -156,6 +288,7 @@ function App() {
   const [history, setHistory] = useState([]);
   const [result, setResult] = useState(null);
   const [roadmap, setRoadmap] = useState(null);
+  const [selectedFlowchart, setSelectedFlowchart] = useState(null);
 
   const current = decisionTree.find(q => q.id === step);
 
@@ -175,6 +308,15 @@ function App() {
     setHistory([]);
     setResult(null);
     setRoadmap(null);
+    setSelectedFlowchart(null);
+  };
+
+  const handleFlowchartClick = (flowchartKey) => {
+    setSelectedFlowchart(flowcharts[flowchartKey]);
+  };
+
+  const closeFlowchart = () => {
+    setSelectedFlowchart(null);
   };
 
   return (
@@ -193,6 +335,25 @@ function App() {
                   <li key={i}>{item}</li>
                 ))}
               </ul>
+              
+              <div className="flowchart-cards">
+                <h4>İlgili Akış Şemaları</h4>
+                <div className="cards-grid">
+                  {Object.keys(flowcharts)
+                    .filter(key => roadmap.relevantStandards.includes(key))
+                    .map((key) => (
+                      <div 
+                        key={key} 
+                        className="flowchart-card"
+                        onClick={() => handleFlowchartClick(key)}
+                      >
+                        <h5>{key}</h5>
+                        <p>{flowcharts[key].title}</p>
+                        <span className="click-hint">Detayları görmek için tıklayın</span>
+                      </div>
+                    ))}
+                </div>
+              </div>
             </div>
           )}
           <button onClick={handleRestart}>Baştan Başla</button>
@@ -212,6 +373,28 @@ function App() {
               Baştan Başla
             </button>
           )}
+        </div>
+      )}
+
+      {/* Akış Şeması Modal */}
+      {selectedFlowchart && (
+        <div className="flowchart-modal-overlay" onClick={closeFlowchart}>
+          <div className="flowchart-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <h2>{selectedFlowchart.title}</h2>
+              <button className="close-btn" onClick={closeFlowchart}>×</button>
+            </div>
+            <div className="flowchart-content">
+              <div className="flowchart-steps">
+                {selectedFlowchart.steps.map((step, index) => (
+                  <div key={index} className="flowchart-step">
+                    <div className="step-number">{index + 1}</div>
+                    <div className="step-content">{step}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       )}
     </div>

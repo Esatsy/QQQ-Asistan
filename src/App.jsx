@@ -88,20 +88,20 @@ const roadmaps = {
       'GDPR: DPO atanması, veri işleme envanteri, ihlal bildirimi',
       'NIS2: Yönetim kurulu düzeyinde siber sorumluluk, yıllık denetim',
       'ISO/IEC 27001 altyapısı ile desteklenmeli',
-      'Önerilen ek standartlar: COBIT, TOGAF, CMMI',
+      'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-    relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'DPO', 'DPIA']
+    relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
   },
   2: {
     title: 'CRA Sınıf I',
     content: [
       'CRA teknik belgeleri hazırlanmalı',
       'Yazılım geliştirme süreci güvenli hale getirilmeli',
-      'ENISA’ya bildirim süreçleri kurulmalı',
+      'ENISA\'ya bildirim süreçleri kurulmalı',
       'ISO/IEC 27001 önerilir',
-      'Önerilen ek standartlar: CMMI (ML2+), ITIL',
+      'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-    relevantStandards: ['CRA', 'ISO 27001']
+    relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
   },
   3: {
     title: 'CRA Sınıf II',
@@ -110,9 +110,9 @@ const roadmaps = {
       'Siber olay müdahale planları',
       'Uygunluk ve sertifikasyon süreçleri',
       'ISO/IEC 27001 önerilir',
-      'Önerilen ek standartlar: CMMI ML3+, COBIT',
+      'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-    relevantStandards: ['CRA', 'ISO 27001', 'COBIT']
+    relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
   },
   4: {
     title: 'Yalnızca GDPR',
@@ -121,9 +121,9 @@ const roadmaps = {
       'DPO atanması (gerekiyorsa)',
       'DPIA ve ihlal bildirimi prosedürleri',
       'ISO/IEC 27701 veya 27001 önerilir',
-      'Önerilen ek çerçeve: TOGAF (veri akışı modellemesi)',
+      'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-    relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF']
+    relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
   },
   5: {
     title: 'CRA Distribütör / Tedarikçi',
@@ -132,9 +132,9 @@ const roadmaps = {
       'Ürünler değiştirilmeden pazara sunulmalı',
       'Güvenlik açıklarında hızlı bildirim ve geri çağırma sistemi kurulmalı',
       'ISO/IEC 27001 önerilir',
-      'Ek çerçeve: ITIL (değişiklik & olay yönetimi)',
+      'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-    relevantStandards: ['CRA', 'ISO 27001']
+    relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
   },
   6: {
     title: 'GDPR + NIS2',
@@ -142,9 +142,9 @@ const roadmaps = {
       'GDPR süreçleri + DPO + denetim kayıtları',
       'NIS2 gereği yönetim sorumluluğu tanımlanmalı',
       'ISO/IEC 27001 altyapısı kurulmalı',
-      'Önerilen çerçeveler: COBIT, TOGAF',
+      'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-    relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'DPO', 'DPIA']
+    relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
   },
   7: {
     title: 'Sadece Türkiye / KVKK',
@@ -152,9 +152,9 @@ const roadmaps = {
       'Veri envanteri, açık rıza, aydınlatma yükümlülükleri',
       'Log yönetimi, şifreleme, antivirüs uygulamaları',
       'Farkındalık eğitimleri',
-      'Önerilen ek: ITIL (temel süreç olgunlaştırma)',
+      'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-    relevantStandards: ['KVKK', 'ISO 27001']
+    relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
   },
 };
 
@@ -279,6 +279,96 @@ const flowcharts = {
       '8. Sürekli İyileştirme (Continuous Improvement)',
       '9. Performans Ölçümü (Performance Measurement)',
       '10. Olgunluk Seviyesi Değerlendirmesi (Maturity Level Assessment)'
+    ]
+  },
+  'ITIL': {
+    title: 'ITIL Kurumsal Mimari Uyum Akış Şeması',
+    steps: [
+      '1. Hizmet Stratejisi Oluşturma (Service Strategy)',
+      '   → İş hedefleri ile BT hizmetlerinin hizalanması',
+      '   → Hizmet portföyü yönetimi ve değer önerisinin tanımı',
+      '   → Finansal yönetim, risk ve uygunluk stratejilerinin belirlenmesi',
+      '2. Hizmet Tasarımı (Service Design)',
+      '   → SLA, kapasite, kullanılabilirlik ve güvenlik planlaması',
+      '   → Bilgi güvenliği kontrollerinin tasarıma entegrasyonu (ISO 27001 uyumu)',
+      '   → GDPR gereklilikleri ve gizlilik etki analizlerinin entegrasyonu',
+      '3. Hizmet Geçişi (Service Transition)',
+      '   → Değişiklik yönetimi (Change Management) sürecinin kurulması',
+      '   → Konfigürasyon yönetimi ve CMDB yapısının oluşturulması',
+      '   → Test ve doğrulama süreçleri + uyum kayıtlarının tutulması',
+      '4. Hizmet Operasyonu (Service Operation)',
+      '   → Olay yönetimi, problem yönetimi, hizmet masası işlemleri',
+      '   → Erişim ve güvenlik olaylarına müdahale süreçleri',
+      '   → NIS2 kapsamında olay bildirimi ve izleme altyapısı',
+      '5. Sürekli Hizmet İyileştirme (Continual Service Improvement)',
+      '   → Hizmet kalitesi, SLA ve KPI performanslarının ölçümü',
+      '   → Denetim bulguları ile iyileştirme planlarının oluşturulması',
+      '   → Süreçlerin olgunluk seviyesine göre COBIT ile hizalanması'
+    ]
+  },
+  'IT4IT': {
+    title: 'IT4IT Kurumsal Mimari Uyum Akış Şeması',
+    steps: [
+      '1. Strateji ile Portföy Hizalaması (Strategy to Portfolio - S2P)',
+      '   → İş stratejisi ile dijital ürün portföyünün hizalanması',
+      '   → Talep yönetimi, yatırım portföyü oluşturulması',
+      '   → BT bütçesi ve değer akış hedeflerinin belirlenmesi',
+      '2. Gereksinimden Dağıtıma (Requirement to Deploy - R2D)',
+      '   → Ürün gereksinimlerinin toplanması ve işlenmesi',
+      '   → Yazılım geliştirme, test, entegrasyon ve dağıtım süreçlerinin modellenmesi',
+      '   → Güvenli yazılım geliştirme (DevSecOps) ve otomasyonun uygulanması',
+      '3. Talep ile Kullanıma Alma (Request to Fulfill - R2F)',
+      '   → Hizmet katalog yönetimi ve sipariş süreçleri',
+      '   → Erişim, yetkilendirme, varlık ve konfigürasyon yönetimi',
+      '   → Self-service portal entegrasyonu ve kullanıcı deneyimi',
+      '4. Algılama ile Kurtarma (Detect to Correct - D2C)',
+      '   → Operasyonel olayların algılanması ve izlenmesi',
+      '   → Kök neden analizi, problem yönetimi, olay müdahalesi',
+      '   → İzlenebilirlik, loglama, SIEM entegrasyonları (NIS2 ile hizalı)',
+      '5. Sürekli Değer Geri Bildirimi',
+      '   → Değer zinciri üzerindeki performans göstergelerinin izlenmesi',
+      '   → Süreç iyileştirmeleri için geribildirim mekanizmalarının kurulması',
+      '   → COBIT kontrol hedeflerine teknik izleme desteği sağlanması'
+    ]
+  },
+  'Denetim Kayıtları': {
+    title: 'Denetim Kayıtları Yönetim Akış Şeması',
+    steps: [
+      '1. Kayıt Gereksinimlerinin Belirlenmesi',
+      '   → Hangi sistemlerin ve işlemlerin kayıt altına alınacağı tanımlanır',
+      '   → Uyulması gereken mevzuatlar: NIS2, GDPR, ISO/IEC 27001, KVKK',
+      '   → Kritik olay türleri (kimlik doğrulama, erişim, silme, veri aktarımı vb.) belirlenir',
+      '2. Kayıt Formatı ve İçeriğinin Standartlaştırılması',
+      '   → Kayıt başlıkları: tarih/saat, kullanıcı, işlem türü, hedef kaynak',
+      '   → Gerektiğinde özel metadata (IP, cihaz kimliği, işlem sonucu) eklenir',
+      '   → Format: JSON, syslog, W3C standardı veya kuruma özel',
+      '3. Toplama (Log Collection)',
+      '   → Kayıtlar sistem düzeyinde (OS), uygulama düzeyinde (web, veri tabanı) ve ağ düzeyinde (firewall, proxy) toplanır',
+      '   → Agent tabanlı ya da agentless yöntemlerle merkezi kayıt sistemine yönlendirilir',
+      '   → Güvenli kanal üzerinden iletim (TLS, VPN, bastion) sağlanır',
+      '4. Kayıtların Korunması ve Değiştirilemezlik',
+      '   → WORM (Write Once Read Many) yapı kullanımı',
+      '   → Hash\'leme ve dijital imza (ISO 27001 A.12.4.2 / NIS2 ile uyumlu)',
+      '   → Erişim kontrolü (sadece yetkili denetçilere okuma hakkı)',
+      '5. Saklama Süresi ve Lokasyonu',
+      '   → GDPR/KVKK: sadece gerekli süre kadar saklanmalı',
+      '   → ISO 27001: yasal zorunluluklar ve risk bazlı süreler',
+      '   → Lokasyon: yerel (on-prem), bulut (ISO 27018 uyumlu) veya hibrit',
+      '6. Kayıtların İzlenmesi ve Analizi',
+      '   → SIEM entegrasyonu (Splunk, ELK, Sentinel vb.)',
+      '   → Olay korelasyonu, anomali tespiti ve uyarı üretimi',
+      '   → Sürekli izleme ve otomatik raporlama (SOAR ile desteklenebilir)',
+      '7. Erişim ve Denetim Süreci',
+      '   → Denetçiler için güvenli görüntüleme paneli',
+      '   → Kayıt erişim talepleri, nedenleri ve erişim zamanı loglanır',
+      '   → DPO veya bilgi güvenliği yöneticisi onayı aranabilir',
+      '8. Kayıtların Arşivlenmesi veya İmhası',
+      '   → Süresi dolan kayıtlar güvenli şekilde imha edilir (kriptografik silme, veri yok etme sertifikası)',
+      '   → Arşivlenecek veriler için soğuk depolama veya sıkıştırma planlanır',
+      '9. Entegrasyon Önerileri',
+      '   → ITIL entegrasyonu: "Service Operation" aşamasına yerleştirilebilir',
+      '   → COBIT entegrasyonu: DSS01, DSS06 ve MEA03 süreçleriyle doğrudan ilişkilidir',
+      '   → ISO/IEC 27001 referansı: A.12.4 – Logging and monitoring, A.12.7 – Information systems audit considerations'
     ]
   }
 };

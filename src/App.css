@@ -358,6 +358,13 @@ h1 {
   margin-bottom: 0.3rem;
 }
 
+.language-btn .fallback {
+  color: #999;
+  font-size: 0.7rem;
+  margin-bottom: 0.2rem;
+  font-family: monospace;
+}
+
 .start-btn {
   background: #007bff;
   color: white;
@@ -422,13 +429,15 @@ h1 {
 
 /* Bayrak emoji stilleri */
 .flag {
-  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", "Android Emoji", "EmojiSymbols", "EmojiOne Mozilla", "Twemoji Mozilla", "Segoe UI Symbol", Arial, sans-serif;
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", "Android Emoji", "EmojiSymbols", "EmojiOne Mozilla", "Twemoji Mozilla", "Segoe UI Symbol", "Noto Emoji", "EmojiOne", "Twemoji", Arial, sans-serif;
   font-size: 2rem;
   line-height: 1;
   display: block;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga" 1;
+  font-variant-emoji: emoji;
 }
 
 /* Responsive tasarım */

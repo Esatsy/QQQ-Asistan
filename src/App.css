@@ -352,6 +352,12 @@ h1 {
   color: #333;
 }
 
+.language-btn .code {
+  color: #666;
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
 .start-btn {
   background: #007bff;
   color: white;

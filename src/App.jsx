@@ -3,12 +3,12 @@ import './App.css'
 
 // Dil seçenekleri
 const languages = {
-  en: { name: 'English', flag: '🇺🇸' },
-  es: { name: 'Español', flag: '🇪🇸' },
-  it: { name: 'Italiano', flag: '🇮🇹' },
-  fr: { name: 'Français', flag: '🇫🇷' },
-  de: { name: 'Deutsch', flag: '🇩🇪' },
-  tr: { name: 'Türkçe', flag: '🇹🇷' }
+  en: { name: 'English', flag: '\u{1F1FA}\u{1F1F8}', code: 'EN' },
+  es: { name: 'Español', flag: '\u{1F1EA}\u{1F1F8}', code: 'ES' },
+  it: { name: 'Italiano', flag: '\u{1F1EE}\u{1F1F9}', code: 'IT' },
+  fr: { name: 'Français', flag: '\u{1F1EB}\u{1F1F7}', code: 'FR' },
+  de: { name: 'Deutsch', flag: '\u{1F1E9}\u{1F1EA}', code: 'DE' },
+  tr: { name: 'Türkçe', flag: '\u{1F1F9}\u{1F1F7}', code: 'TR' }
 };
 
 // Çeviriler
@@ -2293,6 +2293,7 @@ function App() {
                 onClick={() => handleLanguageChange(code)}
               >
                 <span className="flag">{lang.flag}</span>
+                <span className="code">({lang.code})</span>
                 <span className="name">{lang.name}</span>
               </button>
             ))}

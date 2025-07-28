@@ -300,3 +300,134 @@ h1 {
     font-size: 0.9rem;
   }
 }
+
+/* Dil seçimi stilleri */
+.language-selector {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.language-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.language-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.language-btn:hover {
+  border-color: #007bff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+}
+
+.language-btn.selected {
+  border-color: #007bff;
+  background: #f8f9ff;
+}
+
+.language-btn .flag {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.language-btn .name {
+  color: #333;
+}
+
+.start-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 1rem;
+}
+
+.start-btn:hover {
+  background: #0056b3;
+}
+
+/* Header stilleri */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.header h1 {
+  margin: 0;
+  color: #333;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lang-switch-btn {
+  background: none;
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-switch-btn:hover {
+  border-color: #007bff;
+  transform: scale(1.1);
+}
+
+.lang-switch-btn.active {
+  border-color: #007bff;
+  background: #f8f9ff;
+}
+
+/* Responsive tasarım */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .language-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .language-btn {
+    padding: 1rem;
+  }
+  
+  .language-switcher {
+    justify-content: center;
+  }
+}

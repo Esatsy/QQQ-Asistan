@@ -514,7 +514,7 @@ const roadmaps = {
         'ISO/IEC 27001 infrastructure should be supported',
         'Recommended frameworks: COBIT (governance), TOGAF (architecture), ITIL & IT4IT (service management and operational modeling)',
       ],
-      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     2: {
       title: 'CRA Class I',
@@ -525,7 +525,7 @@ const roadmaps = {
         'ISO/IEC 27001 recommended',
         'Recommended frameworks: COBIT (governance), TOGAF (architecture), ITIL & IT4IT (service management and operational modeling)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     3: {
       title: 'CRA Class II',
@@ -536,7 +536,7 @@ const roadmaps = {
         'ISO/IEC 27001 recommended',
         'Recommended frameworks: COBIT (governance), TOGAF (architecture), ITIL & IT4IT (service management and operational modeling)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     4: {
       title: 'GDPR Only',
@@ -547,7 +547,7 @@ const roadmaps = {
         'ISO/IEC 27701 or 27001 recommended',
         'Recommended frameworks: COBIT (governance), TOGAF (architecture), ITIL & IT4IT (service management and operational modeling)',
       ],
-      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     5: {
       title: 'CRA Distributor / Supplier',
@@ -558,7 +558,7 @@ const roadmaps = {
         'ISO/IEC 27001 recommended',
         'Recommended frameworks: COBIT (governance), TOGAF (architecture), ITIL & IT4IT (service management and operational modeling)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     6: {
       title: 'GDPR + NIS2',
@@ -568,7 +568,7 @@ const roadmaps = {
         'ISO/IEC 27001 infrastructure must be established',
         'Recommended frameworks: COBIT (governance), TOGAF (architecture), ITIL & IT4IT (service management and operational modeling)',
       ],
-      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     7: {
       title: 'Turkey Only / KVKK',
@@ -578,7 +578,7 @@ const roadmaps = {
         'Awareness training',
         'Recommended frameworks: COBIT (governance), TOGAF (architecture), ITIL & IT4IT (service management and operational modeling)',
       ],
-      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     }
   },
   es: {
@@ -591,7 +591,7 @@ const roadmaps = {
         'La infraestructura ISO/IEC 27001 debe ser respaldada',
         'Marcos recomendados: COBIT (gobernanza), TOGAF (arquitectura), ITIL & IT4IT (gestión de servicios y modelado operacional)',
       ],
-      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     2: {
       title: 'CRA Clase I',
@@ -602,7 +602,7 @@ const roadmaps = {
         'ISO/IEC 27001 recomendado',
         'Marcos recomendados: COBIT (gobernanza), TOGAF (arquitectura), ITIL & IT4IT (gestión de servicios y modelado operacional)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     3: {
       title: 'CRA Clase II',
@@ -613,7 +613,7 @@ const roadmaps = {
         'ISO/IEC 27001 recomendado',
         'Marcos recomendados: COBIT (gobernanza), TOGAF (arquitectura), ITIL & IT4IT (gestión de servicios y modelado operacional)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     4: {
       title: 'Solo RGPD',
@@ -624,7 +624,7 @@ const roadmaps = {
         'ISO/IEC 27701 o 27001 recomendado',
         'Marcos recomendados: COBIT (gobernanza), TOGAF (arquitectura), ITIL & IT4IT (gestión de servicios y modelado operacional)',
       ],
-      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     5: {
       title: 'CRA Distribuidor / Proveedor',
@@ -635,7 +635,7 @@ const roadmaps = {
         'ISO/IEC 27001 recomendado',
         'Marcos recomendados: COBIT (gobernanza), TOGAF (arquitectura), ITIL & IT4IT (gestión de servicios y modelado operacional)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     6: {
       title: 'RGPD + NIS2',
@@ -645,7 +645,7 @@ const roadmaps = {
         'La infraestructura ISO/IEC 27001 debe establecerse',
         'Marcos recomendados: COBIT (gobernanza), TOGAF (arquitectura), ITIL & IT4IT (gestión de servicios y modelado operacional)',
       ],
-      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     7: {
       title: 'Solo Turquía / KVKK',
@@ -655,7 +655,7 @@ const roadmaps = {
         'Capacitación de concientización',
         'Marcos recomendados: COBIT (gobernanza), TOGAF (arquitectura), ITIL & IT4IT (gestión de servicios y modelado operacional)',
       ],
-      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     }
   },
   it: {
@@ -668,7 +668,7 @@ const roadmaps = {
         'L\'infrastruttura ISO/IEC 27001 deve essere supportata',
         'Framework raccomandati: COBIT (governance), TOGAF (architettura), ITIL & IT4IT (gestione servizi e modellazione operativa)',
       ],
-      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     2: {
       title: 'CRA Classe I',
@@ -679,7 +679,7 @@ const roadmaps = {
         'ISO/IEC 27001 raccomandato',
         'Framework raccomandati: COBIT (governance), TOGAF (architettura), ITIL & IT4IT (gestione servizi e modellazione operativa)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     3: {
       title: 'CRA Classe II',
@@ -690,7 +690,7 @@ const roadmaps = {
         'ISO/IEC 27001 raccomandato',
         'Framework raccomandati: COBIT (governance), TOGAF (architettura), ITIL & IT4IT (gestione servizi e modellazione operativa)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     4: {
       title: 'Solo GDPR',
@@ -701,7 +701,7 @@ const roadmaps = {
         'ISO/IEC 27701 o 27001 raccomandato',
         'Framework raccomandati: COBIT (governance), TOGAF (architettura), ITIL & IT4IT (gestione servizi e modellazione operativa)',
       ],
-      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     5: {
       title: 'CRA Distributore / Fornitore',
@@ -712,7 +712,7 @@ const roadmaps = {
         'ISO/IEC 27001 raccomandato',
         'Framework raccomandati: COBIT (governance), TOGAF (architettura), ITIL & IT4IT (gestione servizi e modellazione operativa)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     6: {
       title: 'GDPR + NIS2',
@@ -722,7 +722,7 @@ const roadmaps = {
         'L\'infrastruttura ISO/IEC 27001 deve essere stabilita',
         'Framework raccomandati: COBIT (governance), TOGAF (architettura), ITIL & IT4IT (gestione servizi e modellazione operativa)',
       ],
-      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     7: {
       title: 'Solo Turchia / KVKK',
@@ -732,7 +732,7 @@ const roadmaps = {
         'Formazione di sensibilizzazione',
         'Framework raccomandati: COBIT (governance), TOGAF (architettura), ITIL & IT4IT (gestione servizi e modellazione operativa)',
       ],
-      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     }
   },
   de: {
@@ -745,7 +745,7 @@ const roadmaps = {
         'ISO/IEC 27001-Infrastruktur sollte unterstützt werden',
         'Empfohlene Rahmenwerke: COBIT (Governance), TOGAF (Architektur), ITIL & IT4IT (Service Management und operatives Modellieren)',
       ],
-      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     2: {
       title: 'CRA Klasse I',
@@ -756,7 +756,7 @@ const roadmaps = {
         'ISO/IEC 27001 empfohlen',
         'Empfohlene Rahmenwerke: COBIT (Governance), TOGAF (Architektur), ITIL & IT4IT (Service Management und operatives Modellieren)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     3: {
       title: 'CRA Klasse II',
@@ -767,7 +767,7 @@ const roadmaps = {
         'ISO/IEC 27001 empfohlen',
         'Empfohlene Rahmenwerke: COBIT (Governance), TOGAF (Architektur), ITIL & IT4IT (Service Management und operatives Modellieren)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     4: {
       title: 'Nur DSGVO',
@@ -778,7 +778,7 @@ const roadmaps = {
         'ISO/IEC 27701 oder 27001 empfohlen',
         'Empfohlene Rahmenwerke: COBIT (Governance), TOGAF (Architektur), ITIL & IT4IT (Service Management und operatives Modellieren)',
       ],
-      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     5: {
       title: 'CRA Vertreiber / Zulieferer',
@@ -789,7 +789,7 @@ const roadmaps = {
         'ISO/IEC 27001 empfohlen',
         'Empfohlene Rahmenwerke: COBIT (Governance), TOGAF (Architektur), ITIL & IT4IT (Service Management und operatives Modellieren)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     6: {
       title: 'DSGVO + NIS2',
@@ -799,7 +799,7 @@ const roadmaps = {
         'ISO/IEC 27001-Infrastruktur muss eingerichtet werden',
         'Empfohlene Rahmenwerke: COBIT (Governance), TOGAF (Architektur), ITIL & IT4IT (Service Management und operatives Modellieren)',
       ],
-      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     7: {
       title: 'Nur Deutschland / KVKK',
@@ -809,7 +809,7 @@ const roadmaps = {
         'Bewusstseinsschulungen',
         'Empfohlene Rahmenwerke: COBIT (Governance), TOGAF (Architektur), ITIL & IT4IT (Service Management und operatives Modellieren)',
       ],
-      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     }
   },
   fr: {
@@ -822,7 +822,7 @@ const roadmaps = {
         'L\'infrastructure ISO/IEC 27001 doit être soutenue',
         'Cadres recommandés : COBIT (gouvernance), TOGAF (architecture), ITIL & IT4IT (gestion des services et modélisation opérationnelle)',
       ],
-      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     2: {
       title: 'CRA Classe I',
@@ -833,7 +833,7 @@ const roadmaps = {
         'ISO/IEC 27001 recommandé',
         'Cadres recommandés : COBIT (gouvernance), TOGAF (architecture), ITIL & IT4IT (gestion des services et modélisation opérationnelle)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     3: {
       title: 'CRA Classe II',
@@ -844,7 +844,7 @@ const roadmaps = {
         'ISO/IEC 27001 recommandé',
         'Cadres recommandés : COBIT (gouvernance), TOGAF (architecture), ITIL & IT4IT (gestion des services et modélisation opérationnelle)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     4: {
       title: 'RGPD Seulement',
@@ -855,7 +855,7 @@ const roadmaps = {
         'ISO/IEC 27701 ou 27001 recommandé',
         'Cadres recommandés : COBIT (gouvernance), TOGAF (architecture), ITIL & IT4IT (gestion des services et modélisation opérationnelle)',
       ],
-      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
     },
     5: {
       title: 'CRA Distributeur / Fournisseur',
@@ -866,7 +866,7 @@ const roadmaps = {
         'ISO/IEC 27001 recommandé',
         'Cadres recommandés : COBIT (gouvernance), TOGAF (architecture), ITIL & IT4IT (gestion des services et modélisation opérationnelle)',
       ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     },
     6: {
       title: 'RGPD + NIS2',
@@ -876,7 +876,7 @@ const roadmaps = {
         'L\'infrastructure ISO/IEC 27001 doit être établie',
         'Cadres recommandés : COBIT (gouvernance), TOGAF (architecture), ITIL & IT4IT (gestion des services et modélisation opérationnelle)',
       ],
-      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
     },
     7: {
       title: 'Turquie Seulement / KVKK',
@@ -886,7 +886,7 @@ const roadmaps = {
         'Formation de sensibilisation',
         'Cadres recommandés : COBIT (gouvernance), TOGAF (architecture), ITIL & IT4IT (gestion des services et modélisation opérationnelle)',
       ],
-      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     }
   },
   tr: {
@@ -899,7 +899,7 @@ const roadmaps = {
       'ISO/IEC 27001 altyapısı ile desteklenmeli',
         'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
   },
   2: {
     title: 'CRA Sınıf I',
@@ -910,7 +910,7 @@ const roadmaps = {
       'ISO/IEC 27001 önerilir',
         'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
   },
   3: {
     title: 'CRA Sınıf II',
@@ -921,7 +921,7 @@ const roadmaps = {
       'ISO/IEC 27001 önerilir',
         'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
   },
   4: {
     title: 'Yalnızca GDPR',
@@ -932,7 +932,7 @@ const roadmaps = {
       'ISO/IEC 27701 veya 27001 önerilir',
         'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'ISO 27001', 'DPO', 'DPIA', 'TOGAF', 'ITIL', 'IT4IT', 'RoPA']
   },
   5: {
     title: 'CRA Distribütör / Tedarikçi',
@@ -943,7 +943,7 @@ const roadmaps = {
       'ISO/IEC 27001 önerilir',
         'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['CRA', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
   },
   6: {
     title: 'GDPR + NIS2',
@@ -953,7 +953,7 @@ const roadmaps = {
       'ISO/IEC 27001 altyapısı kurulmalı',
         'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'Denetim Kayıtları']
+      relevantStandards: ['GDPR', 'NIS2', 'ISO 27001', 'COBIT', 'TOGAF', 'ITIL', 'IT4IT', 'DPO', 'DPIA', 'RoPA']
   },
   7: {
     title: 'Sadece Türkiye / KVKK',
@@ -963,7 +963,7 @@ const roadmaps = {
       'Farkındalık eğitimleri',
         'Önerilen çerçeveler: COBIT (yönetişim), TOGAF (mimari), ITIL & IT4IT (hizmet yönetimi ve operasyonel modelleme)',
     ],
-      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'Denetim Kayıtları']
+      relevantStandards: ['KVKK', 'ISO 27001', 'ITIL', 'IT4IT', 'RoPA']
     }
   }
 };
@@ -1985,7 +1985,7 @@ const flowcharts = {
       ]
     }
   },
-  'Denetim Kayıtları': {
+  'RoPA': {
     en: {
       title: 'Audit Records Management Flowchart',
       steps: [
@@ -2187,7 +2187,7 @@ const flowcharts = {
       ]
     },
     tr: {
-      title: 'Denetim Kayıtları Yönetim Akış Şeması',
+      title: 'RoPA Yönetim Akış Şeması',
       steps: [
         '1. Kayıt Gereksinimlerinin Belirlenmesi',
         '   → Hangi sistemlerin ve işlemlerin kayıt altına alınacağı tanımlanır',

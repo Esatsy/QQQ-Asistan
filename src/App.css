@@ -344,6 +344,8 @@ h1 {
 .language-btn .flag {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  display: block;
+  line-height: 1;
 }
 
 .language-btn .name {
@@ -399,6 +401,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 1;
 }
 
 .lang-switch-btn:hover {
@@ -409,6 +412,17 @@ h1 {
 .lang-switch-btn.active {
   border-color: #007bff;
   background: #f8f9ff;
+}
+
+/* Bayrak emoji stilleri */
+.flag {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", "Android Emoji", "EmojiSymbols", "EmojiOne Mozilla", "Twemoji Mozilla", "Segoe UI Symbol", Arial, sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  display: block;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Responsive tasarım */
